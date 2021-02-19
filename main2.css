@@ -1,0 +1,60 @@
+}
+.voiceUser-1K6Xox{
+    z-index:1
+}
+.voiceUser-1K6Xox .content-3xS9Lh{
+    border-radius:3px;
+    transition:all .15s ease-in-out
+}
+.voiceUser-1K6Xox .avatarContainer-28iYmV{
+    position:relative;
+    transition:all .1s ease-in-out
+}
+.voiceUser-1K6Xox .avatarContainer-28iYmV:after{
+    content:"";
+    position:absolute;
+    width:0;
+    top:0;
+    bottom:0;
+    left:50%;
+    background:linear-gradient(to right, var(--main-color) 10%, transparent);
+    opacity:.5;
+    transition:all .1s ease-in-out, width .15s ease-in-out;
+    pointer-events:none;
+    z-index:-1
+}
+.voiceUser-1K6Xox .avatarSpeaking-2IGMRN{
+    box-shadow:0 0 0 2px var(--main-color),inset 0 0 3px rgba(0,0,0,0.5)
+}
+.voiceUser-1K6Xox .avatarSpeaking-2IGMRN:after{
+    top:-2px;
+    bottom:-2px;
+    width:100px
+}
+.voiceUser-1K6Xox .username-3KYl0N{
+    color:rgba(255,255,255,0.5);
+    transition:all .1s ease-in-out
+}
+.voiceUser-1K6Xox .usernameSpeaking-RmltQx{
+    color:#fff !important
+}
+.icon-1tDorc{
+    width:18px;
+    height:18px;
+    margin-right:3px;
+    color:rgba(255,255,255,0.3)
+}
+.moreUsers-7v8yWY{
+    padding:0 4px;
+    background:rgba(0,0,0,0.3);
+    border-radius:10px
+}
+.containerDragBefore-1YqewQ:before,.containerDragAfter-Zk9oyx:before,.containerDragBefore-1YqewQ:after,.containerDragAfter-Zk9oyx:after,.containerDragBefore-3iTCc7:before,.containerDragAfter-3Fp7LC:before,.containerDragBefore-3iTCc7:after,.containerDragAfter-3Fp7LC:after{
+    background:var(--main-color);
+    border-radius:0
+}
+.containerUserOver-2mv1jO:after{
+    background:var(--main-color);
+    border-color:transparent;
+    opacity:.1
+}
